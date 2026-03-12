@@ -1,0 +1,32 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE/editor
+.idea/
+.vscode/
+
+# Data and outputs
+data/
+outputs/
+model_output/
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Plots and logs
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+pv_new/
