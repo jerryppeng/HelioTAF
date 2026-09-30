@@ -9,7 +9,7 @@ from tensorflow import keras
 
 from data_loader import data_loader_image_with_features, data_loader_image_only
 from models.finetune_10_pvnet_with_all_ra_lstm_t_timesteps import build_cnn_lstm_with_pretrained_pvnet
-from models.finetune_aff_10_pvnet_with_all_ra_lstm_t_timesteps import build_cnn_lstm_with_pretrained_pvnet_and_taf
+from models.finetune_taf_10_pvnet_with_all_ra_lstm_t_timesteps import build_cnn_lstm_with_pretrained_pvnet_and_taf
 from models.pvnet_with_lstm_t_timesteps import (
     build_cnn_lstm_with_pretrained_pvnet_only,
     load_pvnet_feature_extractor,

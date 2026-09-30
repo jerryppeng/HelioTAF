@@ -19,7 +19,7 @@ This repository provides:
 |-- models/
 |   |-- pvnet_with_lstm_t_timesteps.py
 |   |-- finetune_10_pvnet_with_all_ra_lstm_t_timesteps.py
-|   |-- finetune_aff_10_pvnet_with_all_ra_lstm_t_timesteps.py
+|   |-- finetune_taf_10_pvnet_with_all_ra_lstm_t_timesteps.py
 |   `-- taf.py
 |-- data_loader.py
 |-- train.py
